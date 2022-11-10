@@ -1,14 +1,32 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title> Login</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-item>
-    <ion-label>Input with placeholder</ion-label>
-    <ion-input placeholder="Enter company name"></ion-input>
-  </ion-item>
+  <div class="everything">
+    <ion-card>
+      <ion-item>
+        <ion-label><ion-icon name="person-outline"></ion-icon></ion-label>
+        <ion-input placeholder="Email ID"></ion-input>
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item>
+        <ion-label><ion-icon name="lock-closed-outline"></ion-icon></ion-label>
+        <ion-input placeholder="Password"></ion-input>
+      </ion-item>
+    </ion-card>
+    <ion-button class="forgot_password" size="small "
+      >Forgot password?</ion-button
+    >
+    <ion-button expand="block" class="login">Login</ion-button>
+
+    <p class="center">or</p>
+    <p class="center">create an account</p>
+    <div >
+      <ion-button routerLink="/tabs/tab2" class="centerB" size="default">Sign up</ion-button>
+    </div>
+  </div>
 </ion-content>

@@ -1,0 +1,33 @@
+ion-content {
+  --background: #eef1ff;
+
+  ion-card{
+    ion-item{
+    --background:#D2DAFF;
+    }
+  }
+
+  .login{
+    --background:#B1B2FF;
+
+  }
+  .forgot_password {
+    margin-left: 10px;
+    --background:#ABC9FF;
+  }
+  div {
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: gray;
+    }
+
+    .centerB {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      --background:#AAC4FF;
+    }
+  }
+}

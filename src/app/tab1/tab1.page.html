@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="everything">
+  <ion-card class="AllLogin">
     <ion-card>
       <ion-item>
         <ion-label><ion-icon name="person-outline"></ion-icon></ion-label>
@@ -22,11 +22,13 @@
       >Forgot password?</ion-button
     >
     <ion-button expand="block" class="login">Login</ion-button>
+  </ion-card>
 
-    <p class="center">or</p>
-    <p class="center">create an account</p>
-    <div >
-      <ion-button routerLink="/tabs/tab2" class="centerB" size="default">Sign up</ion-button>
-    </div>
+  <p class="center">or</p>
+  <p class="center">create an account</p>
+  <div>
+    <ion-button routerLink="/tabs/tab2" class="centerB" size="default"
+      >Sign up</ion-button
+    >
   </div>
 </ion-content>

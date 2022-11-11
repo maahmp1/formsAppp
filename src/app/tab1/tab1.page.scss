@@ -1,33 +1,46 @@
-ion-content {
-  --background: #eef1ff;
+ion-toolbar{
+  --background:#47b5ff;
+  ion-title{
+    --color:white;
+  }
+}
 
-  ion-card{
-    ion-item{
-    --background:#D2DAFF;
+ion-content {
+  --background: #06283d;
+
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  ion-card {
+    ion-item {
+      --background: #dff6ff;
     }
   }
 
-  .login{
-    --background:#B1B2FF;
-
+  .login {
+    --background: #3b86f0;
   }
   .forgot_password {
-    margin-left: 10px;
-    --background:#ABC9FF;
+    margin: 10px;
+    --background: #bdd8e6;
   }
-  div {
-    .center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: gray;
-    }
 
-    .centerB {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      --background:#AAC4FF;
-    }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dff6ff;
+  }
+
+  .centerB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --background: #47b5ff;
+  }
+
+  .AllLogin {
+    --background: #97d2ec;
   }
 }

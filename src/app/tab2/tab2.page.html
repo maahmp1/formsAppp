@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title> Tab 2 </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <ion-card>
+      <ion-item>
+        <ion-label><ion-icon name="chevron-forward-outline"></ion-icon></ion-label>
+        <ion-input placeholder="First name"></ion-input>
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item>
+        <ion-label><ion-icon name="chevron-forward-outline"></ion-icon></ion-label>
+        <ion-input placeholder="Last name"></ion-input>
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item>
+        <ion-label><ion-icon name="mail-outline"></ion-icon></ion-label>
+        <ion-input placeholder="Email"></ion-input>
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item>
+        <ion-label>
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </ion-label>
+        <ion-input placeholder="Password"></ion-input>
+      </ion-item>
+    </ion-card>
+  </ion-card>
 </ion-content>

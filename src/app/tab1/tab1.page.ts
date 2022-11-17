@@ -14,7 +14,7 @@ export class Tab1Page {
     const alert = await this.alertController.create({
       header: 'Alert',
       subHeader: 'Email sent',
-      message: 'An email was sent to the email you typed',
+      message: 'An email was sent to the email you typed.',
       buttons: ['OK'],
     });
 

@@ -1,3 +1,12 @@
+.centerB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --background: #10316B;
+  font-size: large;
+
+}
+
 ion-toolbar {
   --background: #001D6E;
 
@@ -6,57 +15,7 @@ ion-toolbar {
     font-weight: bold;
   }
 }
-
 ion-content {
-  
+
   --background: #C4DDFF;
-
-  ion-card-header.ios {
-    display: flex;
-    flex-flow: column-reverse;
-  }
-
-  ion-item {
-    ion-icon {
-      --background: #0B409C;
-    }
-
-    --background:#2B4865;
-  }
-
-
-  .login {
-    --background: #1369c0;
-    font-size: large;
-  }
-
-  .forgot_password {
-    margin: 15px;
-    --background: #2B4865;
-    font-size: medium;
-  }
-
-  .center { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #2B4865;
-    font-size: large;
-  }
-
-  .rememberMe{
-    --background:#C4DDFF;
-
-
-  }
-  .centerB { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    --background: #10316B;
-    font-size: large;
-
-  }
-
-  
 }

@@ -1,43 +1,62 @@
 ion-toolbar {
-    --background: #001D6E;
+  --background: #001D6E;
 
-    ion-title {
-        --color: white;
-        font-weight: bold;
-    }
+  ion-title {
+    --color: white;
+    font-weight: bold;
+  }
 }
 
 ion-content {
-    --background: #C4DDFF;
 
+  --background: #C4DDFF;
 
-    ion-item {
-        ion-icon {
-            --background: #0B409C;
-        }
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
 
-        --background:#2B4865;
+  ion-item {
+    ion-icon {
+      --background: #0B409C;
     }
 
-    .login {
-        --background: #1369c0;
-        font-size: large;
-    }
+    --background:#2B4865;
+  }
 
-    .centerB {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        --background: #10316B;
-        font-size: large;
 
-    }
+  .login {
+    --background: #1369c0;
+    font-size: large;
+  }
 
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #2B4865;
-        font-size: large;
-    }
+  .forgot_password {
+    margin: 15px;
+    --background: #2B4865;
+    font-size: small;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B4865;
+    font-size: large;
+  }
+
+  .rememberMe{
+    --background:#C4DDFF;
+
+
+  }
+  .centerB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --background: #10316B;
+    font-size: large;
+
+  }
+
+
 }
